@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0%;
+}
+
+/* .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid rebeccapurple;
+} */
+
+/* .main_mainDiv {
+  border: 2px solid red;
+  height: 100vh;
+}
+
+.main_div {
+  display: flex;
+  margin-top: 10rem;
+}
+
+.card_container {
+  margin: 4rem auto;
+  width: 28%;
+  background-color: rgb(233, 231, 231);
+  padding: 1.3rem 1rem;
+  border-radius: 6px;
+  transition: 0.4s all;
+}
+
+.card_container:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card_heading {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Arial';
+  margin-bottom: 1rem;
+}
+
+.card_description {
+  font-family: 'Arial';
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.button_div {
+  display: flex;
+  justify-content: center;
+}
+
+.card_button {
+  padding: 0.7rem 3rem;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background-color: rgb(61, 147, 223);
+  color: white;
+  transition: 0.3s all;
+  cursor: pointer;
+}
+
+.card_button:hover {
+  background-color: rgb(5, 98, 180);
+} */
+
+.backgroundImage {
+  background-image: url(./images/mallu.jpeg);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.mainSection {
+    margin-top: 1rem;
+  background-color: black;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+}
+
+.mainSection > h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.p_ui {
+  display: flex;
+  color: black !important;
+}
+
+.m {
+  color: white;
+  font-family: 'Arial';
+  margin-right: 1rem;
+}
+
+.p{
+    background-color: #f89929;
+    font-family: 'Arial';
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+}
+
+.mainSection > a {
+    text-decoration: none;
+}
